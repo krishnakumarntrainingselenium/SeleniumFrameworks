@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite2">
+	<test name="TC02">
+		<classes>		
+			<class name="com.mavenownproject.testcases.TestNG2" />
+			
+		</classes>
+	</test>
+</suite>

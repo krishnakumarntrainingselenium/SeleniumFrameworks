@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="169" started-at="2019-06-23T15:03:08Z" finished-at="2019-06-23T15:03:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="169" started-at="2019-06-23T15:03:08Z" finished-at="2019-06-23T15:03:08Z">
+      <class name="parameterization2_SoftAssert.TestParamaterization2_SoftAssert">
+        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="48" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="5" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+      </class> <!-- parameterization2_SoftAssert.TestParamaterization2_SoftAssert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

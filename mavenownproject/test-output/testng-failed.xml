@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="parameterization2_SoftAssert.TestParamaterization2_SoftAssert">
+        <methods>
+          <include name="Login1" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- parameterization2_SoftAssert.TestParamaterization2_SoftAssert -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
