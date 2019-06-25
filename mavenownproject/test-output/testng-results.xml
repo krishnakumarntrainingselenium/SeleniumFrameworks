@@ -1,124 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="169" started-at="2019-06-23T15:03:08Z" finished-at="2019-06-23T15:03:08Z">
+  <suite name="TestSuite1" duration-ms="205" started-at="2019-06-25T19:28:07Z" finished-at="2019-06-25T19:28:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="169" started-at="2019-06-23T15:03:08Z" finished-at="2019-06-23T15:03:08Z">
-      <class name="parameterization2_SoftAssert.TestParamaterization2_SoftAssert">
-        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="48" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
+    <test name="TC01_Chrome" duration-ms="104" started-at="2019-06-25T19:28:07Z" finished-at="2019-06-25T19:28:08Z">
+      <class name="com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML@46d56d67]" name="testCase1" duration-ms="28" started-at="2019-06-25T19:28:08Z" finished-at="2019-06-25T19:28:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kumar00]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar01]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kumar01]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login1 -->
-        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="5" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML -->
+    </test> <!-- TC01_Chrome -->
+    <test name="TC01_Firefox" duration-ms="11" started-at="2019-06-25T19:28:08Z" finished-at="2019-06-25T19:28:08Z">
+      <class name="com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML@53b32d7]" name="testCase1" duration-ms="4" started-at="2019-06-25T19:28:08Z" finished-at="2019-06-25T19:28:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kumar10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar11]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kumar12]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login1 -->
-        <test-method status="PASS" signature="Login1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login1" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata1" finished-at="2019-06-23T15:03:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kumar20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar21]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Kumar22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login1 -->
-        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kumar00]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login2 -->
-        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kumar10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login2 -->
-        <test-method status="PASS" signature="Login2(java.lang.String, java.lang.String)[pri:0, instance:parameterization2_SoftAssert.TestParamaterization2_SoftAssert@224edc67]" name="Login2" duration-ms="3" started-at="2019-06-23T15:03:08Z" data-provider="providedata2" finished-at="2019-06-23T15:03:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kumar20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar21]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login2 -->
-      </class> <!-- parameterization2_SoftAssert.TestParamaterization2_SoftAssert -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML -->
+    </test> <!-- TC01_Firefox -->
+  </suite> <!-- TestSuite1 -->
 </testng-results>

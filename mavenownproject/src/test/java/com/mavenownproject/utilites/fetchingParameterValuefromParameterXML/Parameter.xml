@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite1">
+	
+	<!-- TestCase1 for Chrome Browser -->
+	<test name="TC01_Chrome">
+	    <parameter name="browser" value="Chrome"></parameter>
+			<classes>
+					<class name="com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML" />		
+			</classes>
+	</test>
+	
+	<!-- TestCase1 for firefox Browser -->
+	<test name="TC01_Firefox">
+		<parameter name="browser" value="firefox"> </parameter>
+			<classes>
+					<class name="com.mavenownproject.utilites.fetchingParameterValuefromParameterXML.Parameter_Value_fetching_from_XML" />		
+			</classes>
+	</test>
+	
+</suite>
