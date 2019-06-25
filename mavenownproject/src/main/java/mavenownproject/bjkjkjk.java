@@ -1,5 +1,5 @@
 package mavenownproject;
 
-public class bjkjkjk {
+public class bjkj {
 
 }
